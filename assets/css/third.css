@@ -1,0 +1,38 @@
+.frame-container {
+  width: 70%;
+  margin-top: 5rem;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card-container img {
+  width: 100%;
+  height: 35vh;
+  border-radius: 5px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.pass {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.pass-state {
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .card-container {
+    flex-wrap: wrap;
+  }
+}

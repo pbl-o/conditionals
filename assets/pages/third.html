@@ -1,13 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="../css/third.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/third.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/index.html">Page 1</a></li>
+        <li><a href="../pages/second.html">Page 2</a></li>
+        <li><a href="../pages/third.html">Page 3</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="frame-container">
+        <div class="card-container">
+          <div class="pass">
+            <img
+              src="https://random.dog/391a1745-b888-41d1-9dce-80c0a62e7e95.JPG"
+              alt=""
+            />
+
+            <select id="pass-one" type="text">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+            </select>
+          </div>
+
+          <div class="pass">
+            <img src="https://random.dog/oq9izk0057hy.jpg" alt="" />
+
+            <select id="pass-two" type="text">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+            </select>
+          </div>
+
+          <div class="pass">
+            <img
+              src="https://random.dog/886c5960-5345-48f0-bf3c-9fd5145a62aa.jpg"
+              alt=""
+            />
+
+            <select id="pass-three" type="text">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="pass pass-state">
+          <p id="pass-status">Ingresar</p>
+          <button
+            onclick="        
+                    let counter = passOne.value + passTwo.value  + passThree.value;
+                    counter = Number(counter);
+                    console.log(counter);
+                    passwordOne = 911;
+                    paswordTwo = 714;
+
+                    if(counter === passwordOne){
+                        passStatus.innerHTML = `Password 1 correcto`;
+                    }
+                    else if (counter === paswordTwo){
+                        passStatus.innerHTML = `Password 2 correcto`;
+                    }
+                    else{
+                        passStatus.innerHTML = `Password Incorrecto`
+                    }
+                "
+          >
+            Verificar
+          </button>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="../js/taskthree.js"></script>
+  </body>
 </html>

@@ -1,53 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="../css/second.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/second.css" />
+  </head>
+  <body>
     <nav>
-        <ul>
-            <li><a href="/index.html">Page 1</a></li>
-            <li><a href="../pages/task-two.html">Page 2</a></li>
-            <li><a href="../pages/task-three.html">Page 3</a></li>
-        </ul>
+      <ul>
+        <li><a href="/index.html">Page 1</a></li>
+        <li><a href="../pages/second.html">Page 2</a></li>
+        <li><a href="../pages/third.html">Page 3</a></li>
+      </ul>
     </nav>
     <main>
+      <div class="frame-container">
+        <div class="card-container">
+          <div class="sticker">
+            <img
+              src="https://random.dog/391a1745-b888-41d1-9dce-80c0a62e7e95.JPG"
+              alt=""
+            />
 
-        <div class="frame-container">
-            <div class="card-container">
-                <div class="sticker">
-                    <img src="https://random.dog/391a1745-b888-41d1-9dce-80c0a62e7e95.JPG" alt="">
+            <input id="stickerone" type="text" />
+          </div>
 
-                    <input id="stickerone" type="text">
+          <div class="sticker">
+            <img
+              src="https://random.dog/07688b1f-08ee-46f2-b475-19446a9bbcb4.jpg"
+              alt=""
+            />
 
-                </div>
+            <input id="stickertwo" type="text" />
+          </div>
 
-                                <div class="sticker">
-                  
-                <img   src="https://random.dog/07688b1f-08ee-46f2-b475-19446a9bbcb4.jpg" alt="">
+          <div class="sticker">
+            <img
+              src="https://random.dog/29abc3bf-4291-49e7-b2df-efe128f98696.jpg"
+              alt=""
+            />
 
-                    <input id="stickertwo" type="text">
+            <input id="stickerthree" type="text" />
+          </div>
+        </div>
 
-                </div>
-
-                                <div class="sticker">
-                 
-                <img   src="https://random.dog/29abc3bf-4291-49e7-b2df-efe128f98696.jpg" alt="">
-
-                    <input id="stickerthree" type="text">
-
-                </div>
-
-            </div>
-
-            <div class="sticker sticker-state">
-                <p id="current-status">Estado de tus stickers</p>
-                <button onclick="        
+        <div class="sticker sticker-state">
+          <p id="current-status">Estado de tus stickers</p>
+          <button
+            onclick="        
                     let counter = Number(stickerOneValue.value) + Number(stickerTwoValue.value)  + Number(stickerThreeValue.value);
 
                     if(counter < 10){
@@ -64,13 +66,14 @@
                     else{
                         currentStatus.innerHTML = `Algo extraño ha sucedido, inténtalo otra vez.`
                     }
-                ">Verificar</button>
-            </div>
-
+                "
+          >
+            Verificar
+          </button>
         </div>
-
+      </div>
     </main>
     <footer></footer>
     <script src="../js/taskdos.js"></script>
-</body>
+  </body>
 </html>

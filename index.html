@@ -1,42 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Desafio p1</title>
-    <link rel="stylesheet" href="./assets/css/styles.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
     <nav>
-        <ul>
-            <li><a href="./index.html">Page 1</a></li>
-            <li><a href="./assets/pages/task-two.html">Page 2</a></li>
-            <li><a href="./assets/pages/task-three.html">Page 3</a></li>
-        </ul>
+      <ul>
+        <li><a href="./index.html">Page 1</a></li>
+        <li><a href="./assets/pages/second.html">Page 2</a></li>
+        <li><a href="./assets/pages/third.html">Page 3</a></li>
+      </ul>
     </nav>
 
     <main>
-
-        <div class="image-container">
-            <img 
-            id="image-customized-border" 
-            src="https://random.dog/adbf2147-7bfa-4933-b3be-c42358c2fecb.jpg" 
-            alt="random image with customized borders"
-            onclick= "
+      <div class="image-container">
+        <img
+          id="image-customized-border"
+          src="https://random.dog/adbf2147-7bfa-4933-b3be-c42358c2fecb.jpg"
+          alt="random image with customized borders"
+          onclick="
              borderState = !borderState;
              if(borderState){
                 imageCustom.style.border = `2px solid red`; 
              }else{
                 imageCustom.style.border = 'none';
              }
-
-              
             "
-            >
-        </div>
+        />
+      </divs>
     </main>
     <footer></footer>
     <script src="./assets/js/main.js"></script>
-</body>
+  </body>
 </html>
