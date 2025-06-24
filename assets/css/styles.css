@@ -33,9 +33,11 @@ main {
   align-items: center;
   margin-top: 10rem;
 }
+
 .image-container img {
   width: 50%;
-  height: 50vh;
+  height: 50dvh;
   border-radius: 5px;
   object-fit: cover;
+  object-position: top;
 }
