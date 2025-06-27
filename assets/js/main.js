@@ -16,6 +16,6 @@ passTwo = document.querySelector("#pass-two");
 passThree = document.querySelector("#pass-three");
 
 
-/*Soy consciente de que sería mejor tener un archivo js o script para cada página.
+/*Soy consciente de que sería mejor tener un archivo js o un script para cada página.
 Como no hay tanto código y solo son query selectors, preferí dejarlo de esta forma
 organizado por nombres */
