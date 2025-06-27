@@ -5,7 +5,7 @@
 ### Link directo:
 https://pbl-o.github.io/conditionals/
 
-Consiste en 3 págin as breves que cumplen las funciones especificadas a continuación:
+Consiste en 3 páginas breves que cumplen las funciones especificadas a continuación:
 
 1- Una página con una imagen, al hacerle click a la imagen se
 le agrega un borde rojo de 2 pixeles, al hacerle click nuevamente se le quita el borde. 
